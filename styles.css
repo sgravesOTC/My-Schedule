@@ -3,13 +3,12 @@ Author:Shanna Graves
         Date: 10/26/2023
         Assignment: My Schedule
 */
-
+@font-face {
+    font-family: Bebas Nue;
+    src: url(BebasNeue-Regular.ttf);
+}
 body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color: #113266;
-    background-position: center;
-    background-size: auto;
 }
 
 table {
@@ -19,6 +18,7 @@ table {
     border: solid 10px #297bff;
     width: 80%;
     max-width: 1200px;
+    font-family: Bebas Nue;
 }
 
 tr,
@@ -32,12 +32,18 @@ th {
 
 th.heading {
     background-color: white;
+    font-size: 2em;
 }
 
 th {
     background-color: black;
     color: #297bff;
+    font-size: 1.8em;
     
+    
+}
+td{
+    font-size: 1.5em;
 }
 
 td:nth-child(even) {
