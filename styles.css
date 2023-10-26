@@ -7,8 +7,13 @@ Author:Shanna Graves
     font-family: Bebas Nue;
     src: url(BebasNeue-Regular.ttf);
 }
+
 body {
-    background-color: #113266;
+    background-image: linear-gradient(#113266,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 table {
@@ -16,9 +21,13 @@ table {
     margin-top: 200px;
     background-color: white;
     border: solid 10px #297bff;
+    border-radius: 10px;
     width: 80%;
     max-width: 1200px;
     font-family: Bebas Nue;
+    box-shadow: 5px 10px 10px #29364b;
+    
+    
 }
 
 tr,
@@ -30,20 +39,15 @@ th {
     border: solid 2px black;
 }
 
-th.heading {
-    background-color: white;
-    font-size: 2em;
-}
-
 th {
     background-color: black;
     color: #297bff;
     font-size: 1.8em;
-    
+    text-decoration: #297bff dotted underline;
     
 }
 td{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 td:nth-child(even) {
@@ -54,4 +58,11 @@ td:nth-child(even) {
 td:nth-child(odd) {
     background-color: #1132667c;
 
+}
+
+td.heading {
+    background-color: white;
+    color: #113266;
+    font-size: 2em;
+    text-shadow: 5px 10px 10px #29364b;
 }
