@@ -4,3 +4,11 @@ Author:Shanna Graves
         Assignment: My Schedule
 */
 
+body {
+    background-image: url("OTCEagles.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+}
