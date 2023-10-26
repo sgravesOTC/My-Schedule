@@ -5,10 +5,47 @@ Author:Shanna Graves
 */
 
 body {
-    background-image: url("OTCEagles.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: white;
+    background-color: #113266;
     background-position: center;
-    background-size: contain;
+    background-size: auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    border: solid 10px #297bff;
+    width: 80%;
+    max-width: 1200px;
+}
+
+tr,
+td,
+th {
+
+    padding: 10px;
+    text-align: center;
+    border: solid 2px black;
+}
+
+th.heading {
+    background-color: white;
+}
+
+th {
+    background-color: black;
+    color: #297bff;
+    
+}
+
+td:nth-child(even) {
+    background-color: #e6e94081;
+
+}
+
+td:nth-child(odd) {
+    background-color: #1132667c;
+
 }
